@@ -5,29 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Nguyễn Văn Quân</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f9f9f9; }
-        h1 { color: #1a365d; border-bottom: 2px solid #2b6cb0; padding-bottom: 10px; }
-        h2 { color: #2b6cb0; margin-top: 30px; }
-        .subtitle { font-style: italic; color: #4a5568; font-size: 1.1em; margin-top: -10px; margin-bottom: 30px; }
-        table { width: 100%; border-collapse: collapse; margin-top: 15px; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
-        th, td { border: 1px solid #cbd5e0; padding: 12px; text-align: left; }
-        th { background-color: #ebf8ff; color: #2c5282; font-weight: bold; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 10px; }
-        .highlight { font-weight: bold; color: #2c5282; }
-        blockquote { background: #e2e8f0; border-left: 4px solid #4a5568; margin: 20px 0; padding: 10px 20px; font-style: italic; }
+        body { 
+            font-family: Arial, sans-serif; 
+            line-height: 1.6; 
+            color: #333333; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 30px 20px; 
+            background-color: #fafafa;
+        }
+        h1 { 
+            color: #1a5f7a; 
+            border-bottom: 2px solid #1a5f7a; 
+            padding-bottom: 10px; 
+            margin-bottom: 5px;
+        }
+        h2 { 
+            color: #2c3e50; 
+            margin-top: 0;
+        }
+        .title-sub { 
+            font-style: italic; 
+            color: #555555; 
+            margin-bottom: 30px; 
+        }
+        .section-title { 
+            color: #1a5f7a; 
+            background-color: #f4f6f7; 
+            padding: 8px 12px; 
+            margin-top: 30px;
+            font-size: 1.2rem;
+            border-left: 4px solid #1a5f7a;
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 15px; 
+            background-color: #ffffff;
+        }
+        th, td { 
+            border: 1px solid #dddddd; 
+            padding: 12px; 
+            text-align: left; 
+        }
+        th { 
+            background-color: #1a5f7a; 
+            color: white; 
+            font-weight: bold; 
+        }
+        tr:nth-child(even) { 
+            background-color: #f9f9f9; 
+        }
+        td.bold-text {
+            font-weight: bold;
+            background-color: #fcfcfc;
+            width: 25%;
+        }
+        ul { 
+            padding-left: 20px; 
+            margin-top: 10px;
+        }
+        li { 
+            margin-bottom: 10px; 
+        }
+        strong {
+            color: #1a5f7a;
+        }
     </style>
 </head>
 <body>
 
     <h1>PORTFOLIO</h1>
     <h2>NGUYỄN VĂN QUÂN</h2>
-    <div class="subtitle">Kỹ sư Điện & Khoa học Máy tính | Chuyên gia Giải thuật & Lập trình Python</div>
+    <p class="title-sub">Kỹ sư Điện & Khoa học Máy tính | Chuyên gia Giải thuật & Lập trình Python</p>
 
-    <h2>1. TÓM TẮT BẢN THÂN</h2>
+    <div class="section-title">1. TÓM TẮT BẢN THÂN</div>
     <p>Tôi là một kỹ sư đầy nhiệt huyết trong lĩnh vực Kỹ thuật Điện và Khoa học Máy tính. Với nền tảng toán học chuyên sâu cùng tư duy lập trình tối ưu, tôi luôn hướng tới việc giải quyết các bài toán kỹ thuật phức tạp thông qua công nghệ hiện đại.</p>
 
-    <h2>2. KỸ NĂNG CHUYÊN MÔN</h2>
+    <div class="section-title">2. KỸ NĂNG CHUYÊN MÔN</div>
     <table>
         <thead>
             <tr>
@@ -37,36 +92,34 @@
         </thead>
         <tbody>
             <tr>
-                <td class="highlight">Lập trình & Phần mềm</td>
+                <td class="bold-text">Lập trình & Phần mềm</td>
                 <td>Python (f-strings, Loops, Iterators, Generators), Cấu trúc dữ liệu và Giải thuật, Tối ưu hóa mã nguồn.</td>
             </tr>
             <tr>
-                <td class="highlight">Kỹ thuật Điện</td>
+                <td class="bold-text">Kỹ thuật Điện</td>
                 <td>Phân tích mạch điện (Node/Mesh methods), Tính toán giá trị hiệu dụng (RMS), Mạch tương đương Thevenin và Norton.</td>
             </tr>
             <tr>
-                <td class="highlight">Tín hiệu & Hệ thống</td>
+                <td class="bold-text">Tín hiệu & Hệ thống</td>
                 <td>Biến đổi Laplace (Laplace transforms), Phương trình sai phân (Difference equations), Phân tích đặc tính hệ thống.</td>
             </tr>
             <tr>
-                <td class="highlight">Toán học Cao cấp</td>
+                <td class="bold-text">Toán học Cao cấp</td>
                 <td>Giải tích đa biến (Gradients), Phương trình vi phân, Giới hạn & Tính liên tục (L'Hôpital's rule), Tối ưu hóa ràng buộc (Lagrange multipliers).</td>
             </tr>
         </tbody>
     </table>
 
-    <h2>3. DỰ ÁN & HOẠT ĐỘNG TIÊU BIỂU</h2>
+    <div class="section-title">3. DỰ ÁN & HOẠT ĐỘNG TIÊU BIỂU</div>
     <ul>
-        <li><span class="highlight">Phân tích & Tối ưu hóa Mạch điện phức tạp:</span> Ứng dụng các phương pháp giải điện áp nút, dòng vòng và định lý Thevenin/Norton để đơn giản hóa và tối ưu hóa hiệu suất mạng điện công nghiệp.</li>
-        <li><span class="highlight">Hệ thống hóa bài toán Tín hiệu liên tục và Rời rạc:</span> Giải quyết và mô phỏng các hệ thống đặc tính tuyến tính bất biến (LTI) sử dụng biến đổi Laplace và phương trình sai phân.</li>
-        <li><span class="highlight">Chuỗi bài tập Lập trình Python tối ưu:</span> Thiết kế cấu trúc mã nguồn hiệu năng cao, tận dụng tối đa sức mạnh của Generators và Iterators để tối ưu hóa bộ nhớ khi xử lý dữ liệu lớn.</li>
-        <li><span class="highlight">Nghiên cứu Mô phỏng Vật lý đối xứng:</span> Phân tích lực hấp dẫn và các tác động vật lý trong vỏ cầu đồng chất dựa trên tính chất đối xứng không gian.</li>
+        <li><strong>Phân tích & Tối ưu hóa Mạch điện phức tạp:</strong> Ứng dụng các phương pháp giải điện áp nút, dòng vòng và định lý Thevenin/Norton để đơn giản hóa và tối ưu hóa hiệu suất mạng điện công nghiệp.</li>
+        <li><strong>Hệ thống hóa bài toán Tín hiệu liên tục và Rời rạc:</strong> Giải quyết và mô phỏng các hệ thống đặc tính tuyến tính bất biến (LTI) sử dụng biến đổi Laplace và phương trình sai phân.</li>
+        <li><strong>Chuỗi bài tập Lập trình Python tối ưu:</strong> Thiết kế cấu trúc mã nguồn hiệu năng cao, tận dụng tối đa sức mạnh của Generators và Iterators để tối ưu hóa bộ nhớ khi xử lý dữ liệu lớn.</li>
+        <li><strong>Nghiên cứu Mô phỏng Vật lý đối xứng:</strong> Phân tích lực hấp dẫn và các tác động vật lý trong vỏ cầu đồng chất dựa trên tính chất đối xứng không gian.</li>
     </ul>
 
-    <h2>4. ĐỊNH HƯỚNG PHÁT TRIỂN</h2>
-    <blockquote>
-        Nghiên cứu chuyên sâu và ứng dụng AI/Machine Learning (sử dụng ngôn ngữ Python) vào việc tối ưu hóa và tự động hóa các hệ thống điện thông minh (Smart Grid), nhằm giải quyết các bài toán năng lượng thực tế trong tương lai.
-    </blockquote>
+    <div class="section-title">4. ĐỊNH HƯỚNG PHÁT TRIỂN</div>
+    <p>Nghiên cứu chuyên sâu và ứng dụng AI/Machine Learning (sử dụng ngôn ngữ Python) vào việc tối ưu hóa và tự động hóa các hệ thống điện thông minh (Smart Grid), nhằm giải quyết các bài toán năng lượng thực tế trong tương lai.</p>
 
 </body>
 </html>
